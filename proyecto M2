@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pag Cv</title>
+    <meta name="description" content="Roughly 155 characters">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+   <header>
+    <p>login </p>
+    <div class="form-floating mb-3" >
+        <label for="floatingInput">Correo Electronico</label>
+        <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
+        
+    </div>
+    <div class="form-floating">
+        <label for="floatingPassword">Contraseña</label>
+        <input type="password" class="form-control" id="floatingPassword" placeholder="contraseña">
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
+    </div>
+
+    <article>
+        <img src="logo argentina programa.PNG" alt="Logo argentina programa"
+            width="10%" height="10%">
+            <a href="https://argentinaprograma.inti.gob.ar/">#YoProgramo</a>
+            
+    </article>
+
+    <article>
+        <h5>Redes sociales</h5>
+            <a href="https://www.instagram.com/floraria_25/">Instagram</a>
+            <a href="https://github.com/FlorAria2511">Github</a>
+    </article>
+<hr>
+   </header>
+
+   <section>
+    <h1>Nombre y Apellido</h1>
+    <img src="foto cv.PNG" class="rounded float-start" alt="foto cv" width="10%" height="10%">
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Titulo obtenido</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+   </section>
+
+   <section>
+    <h2>Experiencia Laboral</h2>
+    <p>Titulo del puesto,
+    periodo, logo de la empresa
+    si lo encuentras, y
+    descripción de las
+    actividades realizadas en ese
+    puesto.</p>
+    <ul type="circle">
+        <li>puesto 1</li>
+        <p>descripcion de la actividad</p>
+        <li>puesto 2</li>
+        <p>descripcion de la actividad</p>
+        <li>puesto 3</li>
+        <p>descripcion de la actividad</p>
+        <li>puesto 4</li>
+        <p>descripcion de la actividad</p>
+
+   </section>
+<hr>
+   <section>
+    <h3>Educacion</h3>
+    <p>formación académica,
+    certificaciones, cursos,
+    y todo lo relacionado al
+    título que actualmente
+    cuentas</p>
+    <ul type="circle">
+        <li>Titulo 1</li>
+        <p>info del instituto, año cursado</p>
+        <li>Titulo 2</li>
+        <p>info del instituto, año cursado</p>
+        <li>Titulo 3</li>
+        <p>info del instituto, año cursado</p>
+        <li>Titulo 4</li>
+        <p>info del instituto, año cursado</p>
+   </section>
+<hr>
+<section>
+    <h3>Poyectos</h3>
+    <p>información sobre los
+    proyectos que
+    estuviste involucrado o
+    que desarrollaste,
+    incluyendo este
+    portfolio web</p>
+    <ul type="circle">
+        <li>Proyecto 1</li>
+        <p>nombre, fecha, descripción y el link</p>
+        <a href="#">link proyecto 1</a>
+        <li>Proyecto 2</li>
+        <p>nombre, fecha, descripción y el link</p>
+        <a href="#">link proyecto 2</a>
+        <li>Proyecto 3</li>
+        <p>nombre, fecha, descripción y el link</p>
+        <a href="#">link proyecto 3</a>
+        <li>Proyecto 4</li>
+        <p>nombre, fecha, descripción y el link</p>
+        <a href="#">link proyecto 4</a>
+</section>
+
+
+
+</body>
+
+</html>
